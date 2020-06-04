@@ -7,7 +7,7 @@
 
 Você pode instalar este serviço com esse comando:
 ```
-go get github.com/sl4ureano/severino
+go get github.com/sl4ureano/Severino
 ```
 Navegue para o diretório severino:
 
