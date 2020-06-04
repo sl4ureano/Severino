@@ -1,6 +1,7 @@
 {
 	"ImportPath": "github.com/sl4ureano/severino",
 	"GoVersion": "go1.4.2",
+	"GodepVersion": "v80",
 	"Deps": [
 		{
 			"ImportPath": "github.com/Sirupsen/logrus",
@@ -9,6 +10,16 @@
 		},
 		{
 			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0rc1-136-gfd5d429",
+			"Rev": "fd5d4294a5d5223d55fc76d7840f4b0ad91647bb"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.0rc1-136-gfd5d429",
+			"Rev": "fd5d4294a5d5223d55fc76d7840f4b0ad91647bb"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
 			"Comment": "v1.0rc1-136-gfd5d429",
 			"Rev": "fd5d4294a5d5223d55fc76d7840f4b0ad91647bb"
 		},
@@ -40,6 +51,11 @@
 			"Rev": "40e4aedc8fabf8c23e040057540867186712faa5"
 		},
 		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.12-3-gcb30d62",
+			"Rev": "cb30d6282491c185f77d9bec5d25de1bb61a06bc"
+		},
+		{
 			"ImportPath": "github.com/mrkaspa/go-helpers",
 			"Rev": "ab24335dd59704fc591f042ef8d2435a30261b45"
 		},
@@ -53,8 +69,28 @@
 			"Rev": "05a24e24fa8d3a2eca8c2baf23aa2d5a2c51490c"
 		},
 		{
+			"ImportPath": "github.com/sl4ureano/Severino/endpoint",
+			"Rev": "f08204e953e28fa3763b8ece4b4d828ea4b0a81f"
+		},
+		{
+			"ImportPath": "github.com/sl4ureano/Severino/models",
+			"Rev": "f08204e953e28fa3763b8ece4b4d828ea4b0a81f"
+		},
+		{
+			"ImportPath": "github.com/sl4ureano/Severino/utils",
+			"Rev": "f08204e953e28fa3763b8ece4b4d828ea4b0a81f"
+		},
+		{
 			"ImportPath": "golang.org/x/net/context",
 			"Rev": "d9558e5c97f85372afee28cf2b6059d7d3818919"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/internal/unsafeheader",
+			"Rev": "6fdc65e7d9800cc59998e8ac0d9406a20ff5f399"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "6fdc65e7d9800cc59998e8ac0d9406a20ff5f399"
 		},
 		{
 			"ImportPath": "gopkg.in/bluesuncorp/validator.v5",
