@@ -1,6 +1,8 @@
 # Severino 
 É um simples gerenciador de tarefas com interface HTTP e MySQL como banco de dados.
 
+![](img/logo.png)
+
 ## Configuração
 
 Você pode instalar este serviço com esse comando:
