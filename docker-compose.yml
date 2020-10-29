@@ -1,0 +1,16 @@
+version: "3.1"
+services:
+
+    mariadb:
+      image: mariadb:10.4
+      container_name: mariadb
+      working_dir: /application
+      volumes:
+        - .:/application
+      environment:
+        - MYSQL_ROOT_PASSWORD=localpass
+        - MYSQL_DATABASE=severino
+        - MYSQL_USER=user
+        - MYSQL_PASSWORD=pass
+      ports:
+        - "3306:3306"
