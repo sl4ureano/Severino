@@ -6,40 +6,28 @@
 ## Configuração
 
 Você pode instalar este serviço com esse comando:
-```
-go get github.com/sl4ureano/Severino
-```
-Navegue para o diretório severino:
 
-```
-Instale o https://github.com/tools/godep
-```
-instale as dependências:
-```
-godep restore
-```
-Crie o binário:
-```
-go build
+```shell
+$ go get github.com/sl4ureano/Severino
+$ go get
+$ go build
 ```
 Isso criará um binário chamado severino, crie um arquivo .env na raiz do projeto com este conteúdo:
-```
+```env
 MYSQL_DB=root:password@tcp(localhost:3306)/severino?charset=utf8&parseTime=True
 GIN_MODE=release
 PORT=8080
-```
-defina a variável de ambiente:
-```
-export SEVERINO=dev
+
 ```
 Execute o servidor:
-```
-./severino
+```shell
+$ export SEVERINO=dev ./severino
 ```
 Seu servidor está rodando!
 
-## API REST
+NOTA: Estão disponíveis como ambiente para o severino `prod`, `test` e `dev`.
 
+## API REST
 Você pode gerenciar as tarefas no servidor pela API
 
 ## Criando uma tarefa
